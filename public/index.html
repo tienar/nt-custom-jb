@@ -50,6 +50,7 @@
                     </div>
 					<div class="slds-form-element">
 						<button id="btm-preview" class="slds-button slds-button_brand">Preview Text</button>
+						<a onclick='newwin()'>Anchor</a>
 					</div>
                 </div>           
             </main>
@@ -65,11 +66,12 @@
 
     </div>
 	<script>
-		$('#btn-preview').click(function(){
+		function newwin(){
+		
         alert('Hello');
     $('postcard-preview-text').html($('#postcard-text').val());
     $('postcard-preview-content').css('background-image',"url('"+$('#postcard-url').val()+"')");
-    });   
+    };   
 	
 	</script>
 </body>
