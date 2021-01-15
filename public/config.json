@@ -21,7 +21,7 @@
                 }									
 			],
           "outArguments": [],
-          "url": "https://https://sfmc-tienar.herokuapp.com/journeybuilder/execute",
+          "url": "https://sfmc-tienar.herokuapp.com/journeybuilder/execute",
            "verb": "POST",
             "body": "",
             "header": "",
@@ -33,22 +33,22 @@
     "configurationArguments": {
       "applicationExtensionKey": "bbff74f0-847e-4527-8dcb-e2ac5c9611f1",
       "save": {
-        "url": "https://https://sfmc-tienar.herokuapp.com/journeybuilder/save",
+        "url": "https://sfmc-tienar.herokuapp.com/journeybuilder/save",
           "verb": "POST",
         "useJwt": true
        },
        "publish": {
-        "url": "https://https://sfmc-tienar.herokuapp.com/journeybuilder/publish",
+        "url": "https://sfmc-tienar.herokuapp.com/journeybuilder/publish",
            "verb": "POST",
         "useJwt": true
        },
       "stop": {
-        "url": "https://https://sfmc-tienar.herokuapp.com/journeybuilder/stop",
+        "url": "https://sfmc-tienar.herokuapp.com/journeybuilder/stop",
            "verb": "POST",
         "useJwt": true
       },
       "validate": {
-        "url": "https://https://sfmc-tienar.herokuapp.com/journeybuilder/validate",
+        "url": "https://sfmc-tienar.herokuapp.com/journeybuilder/validate",
         "verb": "POST",
         "useJwt": true
       }
