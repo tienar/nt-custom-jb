@@ -6,7 +6,10 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel='stylesheet' type='text/css'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/design-system/2.5.0/styles/salesforce-lightning-design-system.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/require.js"></script>
     <script type="text/javascript">
         (function () {
@@ -27,11 +30,26 @@
     <div id="step1" class="step">
         <div class="slds-grid">
 
-            <main class="slds-col">
-               
-                <h1>welcome to your activity!</h1>
+            <main class="slds-col slds-size--1-of-3 slds-p-horizontal--small">
+                <div class="slds-form slds-form_stacked">
+                    <div class="slds-form-element">
+                        <label class="slds-form-element__label" for="postcard-text">Postcard Text</label>
+						<div class="slds-form-element__control">
+							<textarea id="postcard-text" class="slds-textarea" rows="3"></textarea>
+						</div>
+                    </div>
+					<div class="slds-form-element">
+						<button id="btm-preview" class="slds-button slds-button_brand">Preview Text</button>
+					</div>
+                </div>           
             </main>
-            
+            <aside class="slds-col slds-size--2-of-3 slds-border_left slds-p-horizontal--small">
+				<div class="postcard-preview">
+					<div class="postcard-preview-content">
+						<p id="postcard-preview-text">Postcard Text</p>
+					</div>
+				</div>
+			</aside>
 
         </div>
 
@@ -39,3 +57,4 @@
 </body>
 
 </html>
+
