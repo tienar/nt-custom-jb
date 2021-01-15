@@ -80,10 +80,12 @@ define([
 
         console.log(payload);
         connection.trigger('updateActivity', payload);
-    }
-$('#btn-preview').click(function(){
+        
+    $('#btn-preview').click(function(){
     $('postcard-preview-text').html($('#postcard-text').val());
     $('postcard-preview-content').css('background-image',"url('"+$('#postcard-url').val()));
-    });                                 
+    }); 
+    }
+                                
 
 });
