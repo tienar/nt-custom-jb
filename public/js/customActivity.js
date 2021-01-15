@@ -83,6 +83,7 @@ define([
        
     }
     $('#btn-preview').click(function(){
+        alert('Hello');
     $('postcard-preview-text').html($('#postcard-text').val());
     $('postcard-preview-content').css('background-image',"url('"+$('#postcard-url').val()+"')");
     });                              
