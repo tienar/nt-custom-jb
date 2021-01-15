@@ -83,7 +83,7 @@ define([
     }
 $('#btn-preview').click(function(){
     $('postcard-preview-text').html($('#postcard-text').val());
-    $('postcard-preview-content').css('background-image',"url('"+$('#postcard-url').val()+
+    $('postcard-preview-content').css('background-image',"url('"+$('#postcard-url').val()))
     });                                      
 
 });
