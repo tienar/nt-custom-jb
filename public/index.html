@@ -56,8 +56,8 @@
             </main>
             <aside class="slds-col slds-size--2-of-3 slds-border_left slds-p-horizontal--small">
 				<div class="postcard-preview">
-					<div class="postcard-preview-content">
-						<p id="postcard-preview-text">Postcard Text</p>
+					<div class="postcard-preview-content" style="background: no-repeat;">
+						<p id="postcard-preview-text" >Postcard Text</p>
 					</div>
 				</div>
 			</aside>
@@ -67,8 +67,6 @@
     </div>
 	<script>
 		function newwin(){
-		
-        alert('Hello');
     $('#postcard-preview-text').html($('#postcard-text').val());
     $('.postcard-preview-content').css('background-image',"url('"+$('#postcard-url').val()+"')");
     };   
