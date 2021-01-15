@@ -81,6 +81,9 @@ define([
         console.log(payload);
         connection.trigger('updateActivity', payload);
     }
-                                 
+$('#btn-preview').click(function(){
+    $('postcard-preview-text').html($('#postcard-text').val());
+    
+    });                                 
 
 });
