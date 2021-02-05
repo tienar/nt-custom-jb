@@ -8,7 +8,7 @@
     "type": "REST",
     "lang": {
         "en-US": {
-            "name": "Postcard",
+            "name": "Custom Activity",
           "description": "A custom Journey Builder activity to send a postcard",
           "step1Label": "Configure Activity"
         }
@@ -17,7 +17,7 @@
         "execute": {
            "inArguments":[
 				{
-                    "emailAddress": "{{Contact.Attribute.CustomActivity.EmailAddress}}"
+                    "emailAddress": "{{Contact.Attribute.customActivity.EmailAddress}}"
                 }									
 			],
           "outArguments": [],
